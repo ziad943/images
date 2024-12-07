@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    width: 100vh;
+    margin: 0 auto;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "child-1 child-1 child-1 child-2 child-2 child-2 child-3 child-3 child-3"
+    "child-1 child-1 child-1 child-2 child-2 child-2 child-3 child-3 child-3"
+    "child-4 child-4 child-4 child-2 child-2 child-2 child-5 child-5 child-5"
+    "child-4 child-4 child-4 child-2 child-2 child-2 child-5 child-5 child-5"
+    "child-4 child-4 child-4 child-2 child-2 child-2 child-6 child-6 child-6"
+    "child-4 child-4 child-4 child-7 child-7 child-7 child-6 child-6 child-6"
+    "child-4 child-4 child-4 child-7 child-7 child-7 child-6 child-6 child-6"
+    ". . . child-7 child-7 child-7 . . ."
+    ". . . child-7 child-7 child-7 . . ."
+    ;
+    gap: 10px;
+}
+.child-1{
+    grid-area: child-1;
+}
+.child-2{
+    grid-area: child-2;
+}
+.child-3{
+    grid-area: child-3;
+}
+.child-4{
+    grid-area: child-4;
+}
+.child-5{
+    grid-area: child-5;
+}
+.child-6{
+    grid-area: child-6;
+}
+.child-7{
+    grid-area: child-7;
+}
+img{
+    width: 100%;
+}
